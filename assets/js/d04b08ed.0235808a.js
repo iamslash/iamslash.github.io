@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkiamslash=self.webpackChunkiamslash||[]).push([[972],{2123:function(s){s.exports=JSON.parse('{"allTagsPath":"/iamslash/blog/tags","slug":"/iamslash/blog/tags/docusaurus","name":"docusaurus","count":4,"permalink":"/iamslash/blog/tags/docusaurus"}')}}]);

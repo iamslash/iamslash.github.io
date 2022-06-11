@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkiamslash=self.webpackChunkiamslash||[]).push([[866],{5439:function(s){s.exports=JSON.parse('{"allTagsPath":"/iamslash/blog/tags","slug":"/iamslash/blog/tags/hello","name":"hello","count":2,"permalink":"/iamslash/blog/tags/hello"}')}}]);
