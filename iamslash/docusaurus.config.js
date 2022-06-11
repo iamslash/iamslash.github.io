@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 (module.exports = {
   title: 'iamslash',
   tagline: 'David learns to code',
-  url: 'https://iamslash.github.io',
+  url: 'https://iamslash.github.io/',
   baseUrl: '/iamslash/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
