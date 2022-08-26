@@ -8,11 +8,11 @@
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[이 것은 실험입니다.]]></title>
-            <link>https://iamslash.github.io/blog/testing-korean</link>
-            <guid>testing-korean</guid>
+            <title><![CDATA[docusaurus, netlify, netlify cms usages]]></title>
+            <link>https://iamslash.github.io/blog/build-deploy-docusaurus</link>
+            <guid>build-deploy-docusaurus</guid>
             <pubDate>Fri, 26 Aug 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.]]></description>
+            <description><![CDATA[`bash]]></description>
         </item>
         <item>
             <title><![CDATA[Welcome]]></title>
@@ -20,20 +20,6 @@
             <guid>welcome</guid>
             <pubDate>Thu, 26 Aug 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Docusaurus blogging features are powered by the blog plugin.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[MDX Blog Post]]></title>
-            <link>https://iamslash.github.io/blog/mdx-blog-post</link>
-            <guid>mdx-blog-post</guid>
-            <pubDate>Sun, 01 Aug 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Long Blog Post]]></title>
-            <link>https://iamslash.github.io/blog/long-blog-post</link>
-            <guid>long-blog-post</guid>
-            <pubDate>Wed, 29 May 2019 00:00:00 GMT</pubDate>
-            <description><![CDATA[This is the summary of a very long blog post,]]></description>
         </item>
         <item>
             <title><![CDATA[First Blog Post]]></title>

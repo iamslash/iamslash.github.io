@@ -8,11 +8,15 @@
     <subtitle>iamslash Blog</subtitle>
     <icon>https://iamslash.github.io/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[이 것은 실험입니다.]]></title>
-        <id>testing-korean</id>
-        <link href="https://iamslash.github.io/blog/testing-korean"/>
+        <title type="html"><![CDATA[docusaurus, netlify, netlify cms usages]]></title>
+        <id>build-deploy-docusaurus</id>
+        <link href="https://iamslash.github.io/blog/build-deploy-docusaurus"/>
         <updated>2022-08-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.]]></summary>
+        <summary type="html"><![CDATA[`bash]]></summary>
+        <author>
+            <name>David Sun</name>
+            <uri>https://github.com/iamslash</uri>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
@@ -27,28 +31,6 @@
         <author>
             <name>Yangshun Tay</name>
             <uri>https://github.com/yangshun</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MDX Blog Post]]></title>
-        <id>mdx-blog-post</id>
-        <link href="https://iamslash.github.io/blog/mdx-blog-post"/>
-        <updated>2021-08-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></summary>
-        <author>
-            <name>Sébastien Lorber</name>
-            <uri>https://sebastienlorber.com</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Long Blog Post]]></title>
-        <id>long-blog-post</id>
-        <link href="https://iamslash.github.io/blog/long-blog-post"/>
-        <updated>2019-05-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This is the summary of a very long blog post,]]></summary>
-        <author>
-            <name>Endilie Yacop Sucipto</name>
-            <uri>https://github.com/endiliey</uri>
         </author>
     </entry>
     <entry>
