@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://iamslash.github.io/blog</id>
     <title>iamslash Blog</title>
-    <updated>2021-08-26T00:00:00.000Z</updated>
+    <updated>2022-08-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://iamslash.github.io/blog"/>
     <subtitle>iamslash Blog</subtitle>
     <icon>https://iamslash.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[이 것은 실험입니다.]]></title>
+        <id>testing-korean</id>
+        <link href="https://iamslash.github.io/blog/testing-korean"/>
+        <updated>2022-08-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>welcome</id>

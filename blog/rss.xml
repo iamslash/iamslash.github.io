@@ -4,9 +4,16 @@
         <title>iamslash Blog</title>
         <link>https://iamslash.github.io/blog</link>
         <description>iamslash Blog</description>
-        <lastBuildDate>Thu, 26 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 26 Aug 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[이 것은 실험입니다.]]></title>
+            <link>https://iamslash.github.io/blog/testing-korean</link>
+            <guid>testing-korean</guid>
+            <pubDate>Fri, 26 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.이럴 수가 한글이 되는 것이 신기하군요.]]></description>
+        </item>
         <item>
             <title><![CDATA[Welcome]]></title>
             <link>https://iamslash.github.io/blog/welcome</link>
