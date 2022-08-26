@@ -2,13 +2,17 @@
 title: docusaurus, netlify, netlify cms usages
 slug: build-deploy-docusaurus
 authors: [iamslash]
-tags: [docusaurus, netlify, netlify cms]
 ---
 # docusaurus 를 build & deploy 하기
 
 ```bash
-// Deploy on local
+# Deploy srcon local
 $ yarn start
+
+# Build and resolve errors
+$ yarn build
+# Deploy build directory on local
+$ yarn serve
 ```
 
 # docusaurus 를 netlify CMS 와 연동하기
