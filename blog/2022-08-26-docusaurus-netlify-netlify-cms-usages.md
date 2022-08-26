@@ -1,6 +1,8 @@
 ---
 title: docusaurus, netlify, netlify cms usages
 slug: build-deploy-docusaurus
+authors: [iamslash]
+tags: [docusaurus, netlify, netlify cms]
 ---
 # docusaurus 를 build & deploy 하기
 
