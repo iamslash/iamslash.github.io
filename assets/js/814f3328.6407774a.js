@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkiamslash=self.webpackChunkiamslash||[]).push([[535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Paste Image In vscode","permalink":"/blog/paste-image-vscode"},{"title":"docusaurus, netlify, netlify cms usages","permalink":"/blog/build-deploy-docusaurus"},{"title":"Welcome","permalink":"/blog/welcome"}]}')}}]);

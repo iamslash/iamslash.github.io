@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkiamslash=self.webpackChunkiamslash||[]).push([[437],{6325:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/vscode","name":"vscode","count":1,"permalink":"/blog/tags/vscode"}')}}]);
