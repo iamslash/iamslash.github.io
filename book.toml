@@ -1,0 +1,11 @@
+[book]
+authors = ["iamslash"]
+language = "en"
+src = "src"
+title = "iamslash"
+
+[build]
+build-dir = "book"
+
+[output.html]
+git-repository-url = "https://github.com/iamslash/iamslash.github.io"
