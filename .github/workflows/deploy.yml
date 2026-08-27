@@ -27,7 +27,11 @@ jobs:
           echo "$PWD/bin" >> $GITHUB_PATH
 
       - name: Build
-        run: mdbook build
+        run: |
+          mdbook build ko
+          mdbook build en
+          cp index.html about.html book/
+          python3 scripts/gen_sitemap.py
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

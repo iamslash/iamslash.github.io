@@ -1,0 +1,16 @@
+<script>
+// 메뉴 바에 언어 전환 링크를 추가한다.
+// SUMMARY.md 에 두면 mdBook 이 챕터로 오해해 소스 파일을 만들어버린다.
+document.addEventListener('DOMContentLoaded', function () {
+  var bar = document.querySelector('.menu-bar .right-buttons');
+  if (!bar) return;
+  var a = document.createElement('a');
+  a.href = window.location.pathname.replace(/^\/ko\//, '/en/');
+  a.title = 'English';
+  a.setAttribute('hreflang', 'en');
+  a.setAttribute('aria-label', 'Switch to English');
+  a.style.cssText = 'margin-left:.5rem;font-size:.85rem;text-decoration:none;';
+  a.textContent = 'EN';
+  bar.appendChild(a);
+});
+</script>
