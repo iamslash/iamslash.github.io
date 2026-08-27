@@ -37,7 +37,6 @@ ko/book.toml   ko/src/   ko/theme/     Korean book   → book/ko
 en/book.toml   en/src/   en/theme/     English book  → book/en
 index.html                             language selection landing page
 scripts/gen_sitemap.py                 sitemap.xml + robots.txt
-drafts/                                unpublished manuscripts (see below)
 ```
 
 - **`<lang>/src/SUMMARY.md`** is the table of contents **and** the router. mdBook only renders pages linked from it; a new `.md` under `src/` is invisible until it is listed there.
@@ -57,11 +56,11 @@ hreflang is not emitted into `<head>` because mdBook's `{{ path }}` yields the s
 
 ## Drafts and the publishing flow
 
-`drafts/` holds unpublished manuscripts. It sits outside every book's `src/`, so mdBook never builds it — but **it is visible in this public repository**. See `drafts/README.md`, which warns readers not to follow unverified drafts.
+Manuscripts live in a **separate private repository** (`iamslash/writing`, under `blog-drafts/`), not here. They are unverified while being revised, so they stay out of this public repository until they ship.
 
 **Korean is the source of truth.** Write and revise the Korean manuscript first; write the English version only once the Korean text has settled. Otherwise every review finding has to be fixed twice. This ordering is the reason the repository tolerates having the same content in two places at all.
 
-**Publishing is a move, not a copy** — `drafts/<series>/<post>.md` → `<lang>/src/<series>/<post>.md`. Exactly one copy exists at any moment. Each series has a `_PUBLISH.md` tracker holding the per-post steps, the prepared `SUMMARY.md` line, and the checklist state. Follow the series' own tracker rather than improvising, and publish in reading order — posts link to their "next" installment, which 404s until that one is published.
+**Publishing is a move, not a copy** — `writing/blog-drafts/<series>/<post>.md` → `<lang>/src/<series>/<post>.md`. Exactly one copy exists at any moment. Each series has a `_PUBLISH.md` tracker holding the per-post steps, the prepared `SUMMARY.md` line, and the checklist state. Follow the series' own tracker rather than improvising, and publish in reading order — posts link to their "next" installment, which 404s until that one is published.
 
 **Never publish without being asked.** Moving a draft into `<lang>/src/` and pushing to `main` puts it on the live site. Treat publishing as a separate, explicitly requested action.
 

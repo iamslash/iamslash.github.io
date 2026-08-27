@@ -10,7 +10,6 @@ Korean and English are **two separate mdBook projects** in this one repository, 
 ko/          Korean book   → book/ko   → /ko/...
 en/          English book  → book/en   → /en/...
 index.html   language selection landing page
-drafts/      unpublished manuscripts (never built; see drafts/README.md)
 scripts/     sitemap generation
 ```
 
@@ -50,9 +49,9 @@ Nested `SUMMARY.md` entries render as a collapsible tree, which is how multi-pos
 
 ## Drafts
 
-`drafts/` holds manuscripts that are still being written and verified. mdBook never builds it, but it is visible in this public repository — see [`drafts/README.md`](drafts/README.md) before relying on anything there.
+Manuscripts live in a separate private repository and only arrive here when they are ready to publish.
 
-Korean is written first; the English version follows once the Korean text has settled. Publishing moves a file from `drafts/` into `<lang>/src/` and adds it to that language's `SUMMARY.md`; each series carries a `_PUBLISH.md` tracker with the exact steps.
+Korean is written first; the English version follows once the Korean text has settled. Publishing moves a file into `<lang>/src/` and adds it to that language's `SUMMARY.md`.
 
 ## Deployment
 
