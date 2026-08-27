@@ -8,5 +8,4 @@ title = "iamslash"
 build-dir = "../book/ko"
 
 [output.html]
-git-repository-url = "https://github.com/iamslash/iamslash.github.io"
 site-url = "/ko/"
