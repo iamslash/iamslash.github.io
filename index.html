@@ -46,7 +46,7 @@
     overflow-x: hidden;
   }
 
-  /* 은은한 격자 + 중앙 글로우 */
+  /* faint grid, masked to a centre glow */
   body::before {
     content: "";
     position: fixed; inset: 0;
@@ -105,13 +105,6 @@
     font-size: 1.02rem;
     line-height: 1.55;
   }
-  .tagline .ko {
-    display: block;
-    margin-top: .3rem;
-    color: var(--fg-faint);
-    font-size: .95rem;
-  }
-
   nav {
     margin-top: 2.75rem;
     display: grid;
@@ -168,7 +161,6 @@
 
     <p class="tagline">
       I like figuring out how things work — and writing down what I find.
-      <span class="ko">무언가가 어떻게 동작하는지 파헤치는 걸 좋아합니다. 알게 된 것을 여기 정리합니다.</span>
     </p>
 
     <nav>
@@ -178,7 +170,7 @@
       </a>
       <a href="./ko/" hreflang="ko">
         <span class="lang">Korean</span>
-        <span class="name">한국어로 읽기 <span class="arrow" aria-hidden="true">→</span></span>
+        <span class="name">Read <span class="arrow" aria-hidden="true">→</span></span>
       </a>
     </nav>
   </main>
