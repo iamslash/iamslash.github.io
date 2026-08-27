@@ -30,7 +30,7 @@ jobs:
         run: |
           mdbook build ko
           mdbook build en
-          cp index.html about.html book/
+          cp index.html book/
           python3 scripts/gen_sitemap.py
 
       - name: Upload artifact
