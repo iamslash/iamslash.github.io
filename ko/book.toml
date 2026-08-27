@@ -2,7 +2,7 @@
 authors = ["iamslash"]
 language = "ko"
 src = "src"
-title = "iamslash"
+title = "David learns to code"
 
 [build]
 build-dir = "../book/ko"
