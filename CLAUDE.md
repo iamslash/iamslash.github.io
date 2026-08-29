@@ -62,7 +62,9 @@ Manuscripts live in a **separate private repository** (`iamslash/writing`, under
 
 **Publishing is a move, not a copy** — `writing/blog-drafts/<series>/<post>.md` → `<lang>/src/<series>/<post>.md`. Exactly one copy exists at any moment. Each series has a `_PUBLISH.md` tracker holding the per-post steps, the prepared `SUMMARY.md` line, and the checklist state. Follow the series' own tracker rather than improvising, and publish in reading order — posts link to their "next" installment, which 404s until that one is published.
 
-**Never publish without being asked.** Moving a draft into `<lang>/src/` and pushing to `main` puts it on the live site. Treat publishing as a separate, explicitly requested action.
+**Never publish without being asked.** Moving a draft into `<lang>/src/` and pushing to `main` puts it on the live site. Treat publishing as a separate, explicitly requested action — finishing a draft is not permission to ship it.
+
+Finish **both** language drafts in the private repository first, then wait for a decision, then publish **Korean first and English after**. Each language is its own approval; shipping the English version because the Korean one was approved is the same mistake as publishing unasked.
 
 ### Evidence labels
 
