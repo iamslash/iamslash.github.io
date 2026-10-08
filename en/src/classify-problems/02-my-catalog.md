@@ -1,11 +1,12 @@
 # There Are 55 Coding Interview Problems
 
 In [There Are 75 Famous Problems](./01-skiena-catalog.md) we saw Skiena write
-an Input and an Output for every problem. No algorithm name appears, so you can
-find an entry knowing only what you have and what you want.
+an Input and an Output for every problem. No algorithm name appears, so you
+can find an entry knowing only what you have and what you want.
 
 You cannot use those 75 for a coding interview as they are. `Voronoi Diagrams`
-and `Medial-Axis Transform` do not come up in interviews. Different problems do.
+and `Medial-Axis Transform` do not come up in interviews. Different problems
+do.
 
 So **I built the list for interviews the same way.** I went back through about
 3,000 problems I had solved on LeetCode.
@@ -38,8 +39,8 @@ Those two split right here — **does it have to be contiguous?**
   no    Longest increasing subsequence
 ```
 
-The third field is the one you actually use. Read the problem, and **if you can
-answer the splitting question**, the method is settled.
+The third field is the one you actually use. Read the problem, and **if you
+can answer the splitting question**, the method is settled.
 
 ## 2. Nine Categories, 55 Problems
 
@@ -48,8 +49,8 @@ answer the splitting question**, the method is settled.
   this list   categories 9    problems 55      what shows up in interviews
 ```
 
-There is no reason behind the number 55. **It is a starting point.** All I fixed
-were the rules for growing and shrinking it.
+There is no reason behind the number 55. **It is a starting point.** All I
+fixed were the rules for growing and shrinking it.
 
 ```
   split    when the difference changes the method or the "why is this correct"
@@ -64,7 +65,7 @@ were the rules for growing and shrinking it.
 | Window over a sequence | numbers or letters in a row, and one condition | the shortest or longest run that satisfies the condition | does the condition change monotonically as you widen and shrink the window. if the condition is about a sum, one negative number breaks it | [Longest Substring Without Repeating Characters](https://github.com/iamslash/learntocode/blob/master/leetcode/LongestSubstringWithoutRepeatingCharacters/MainApp.java) · [Minimum Size Subarray Sum](https://github.com/iamslash/learntocode/tree/master/leetcode/MinimumSizeSubarraySum) |
 | Largest run | numbers in a row | the run with the largest sum or product | it must be contiguous. picking non-adjacent items is a different problem | [Maximum Subarray](https://github.com/iamslash/learntocode/blob/master/leetcode/MaximumSubarray/MainApp.java) · [Maximum Product Subarray](https://github.com/iamslash/learntocode/blob/master/leetcode/MaximumProductSubarray/Solution.java) |
 | Longest increasing subsequence | numbers or items in a row | the length of the longest subsequence that only goes up | must it be contiguous. if you may skip, keep only the tail values and binary search | [Longest Increasing Subsequence](https://github.com/iamslash/learntocode/blob/master/leetcode/LongestIncreasingSubsequence/Solution.java) · [Russian Doll Envelopes](https://github.com/iamslash/learntocode/tree/master/leetcode2/RussianDollEnvelopes) |
-| Next greater element | numbers in a row | for each position, the first larger or smaller value it meets, or the range those values define | is a past element smaller than the current one useless forever | [Daily Temperatures](https://github.com/iamslash/learntocode/blob/master/leetcode/DailyTemperatures/Solution.java) · [Largest Rectangle in Histogram](https://github.com/iamslash/learntocode/tree/master/leetcode/LargestRectangleinHistogram) |
+| Next greater element | numbers in a row | for each position, the first larger or smaller value it meets, or the range those values define | if an earlier element is smaller than the current one, is it useless forever | [Daily Temperatures](https://github.com/iamslash/learntocode/blob/master/leetcode/DailyTemperatures/Solution.java) · [Largest Rectangle in Histogram](https://github.com/iamslash/learntocode/tree/master/leetcode/LargestRectangleinHistogram) |
 | Prefix and range | a sequence or a matrix, plus repeated range questions | the sum or minimum of each range | do values change in between. if not, prefix sums; if so, a tree | [Range Sum Query - Immutable](https://github.com/iamslash/learntocode/tree/master/leetcode/RangeSumQuery-Immutable) · [Range Sum Query 2D - Mutable](https://github.com/iamslash/learntocode/tree/master/leetcode/RangeSumQuery2D-Mutable) |
 | Kth element | unsorted values and k | the kth largest or smallest value | do you need just the kth one, or all k of them | [Kth Largest Element in an Array](https://github.com/iamslash/learntocode/blob/master/leetcode/KthLargestElementinanArray/MainApp.java) · [Top K Frequent Elements](https://github.com/iamslash/learntocode/blob/master/leetcode/TopKFrequentElements/MainApp.java) |
 | Count and tally | values | how many times, is there a majority, which value is missing | is the range of values narrow. if it is, counting alone is enough | [Majority Element](https://github.com/iamslash/learntocode/tree/master/leetcode/MajorityElement) · [First Missing Positive](https://github.com/iamslash/learntocode/tree/master/leetcode/FirstMissingPositive) |
@@ -111,13 +112,13 @@ were the rules for growing and shrinking it.
 | Tree DP | a tree and a value per node | the best value collected from the subtrees below | is one value enough to send up from a child, or do you need several | [Binary Tree Maximum Path Sum](https://github.com/iamslash/learntocode/blob/master/leetcode/BinaryTreeMaximumPathSum/MainApp.java) · [House Robber III](https://github.com/iamslash/learntocode/tree/master/leetcode/HouseRobberIII) |
 | Build a tree | traversal output or a serialized string | the original tree | where in the input is the root | [Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/iamslash/learntocode/tree/master/leetcode/ConstructBinaryTreefromPreorderandInorderTraversal) · [Construct Binary Tree from Inorder and Postorder Traversal](https://github.com/iamslash/learntocode/tree/master/leetcode/ConstructBinaryTreefromInorderandPostorderTraversal) |
 | Binary search tree | a tree with the sorted property | insert, delete, kth, or validate | do you build a tree from a sorted sequence, or pull a sorted sequence out of a tree | [Convert Sorted Array to Binary Search Tree](https://github.com/iamslash/learntocode/tree/master/leetcode/ConvertSortedArraytoBinarySearchTree) · [Kth Smallest Element in a BST](https://github.com/iamslash/learntocode/tree/master/leetcode/KthSmallestElementinaBST) |
-| Lowest common ancestor | a tree and two nodes | their nearest common ancestor | can you use the sorted order. in a binary search tree one walk down from the root solves it | [Lowest Common Ancestor of a Binary Search Tree](https://github.com/iamslash/learntocode/blob/master/leetcode/LowestCommonAncestorofaBinarySearchTree/MainApp.java) · [Lowest Common Ancestor of a Binary Tree](https://github.com/iamslash/learntocode/blob/master/leetcode/LowestCommonAncestorofaBinaryTree/MainApp.java) |
+| Lowest common ancestor | a tree and two nodes | their nearest common ancestor | can you use the sorted property. in a binary search tree one walk down from the root solves it | [Lowest Common Ancestor of a Binary Search Tree](https://github.com/iamslash/learntocode/blob/master/leetcode/LowestCommonAncestorofaBinarySearchTree/MainApp.java) · [Lowest Common Ancestor of a Binary Tree](https://github.com/iamslash/learntocode/blob/master/leetcode/LowestCommonAncestorofaBinaryTree/MainApp.java) |
 
 ### Graphs
 
 | Problem | In | Out | Splitting question | Examples |
 |---|---|---|---|---|
-| Connected components | vertices and edges, or a grid | how many blobs, are these two in the same blob, which edge ruins a blob | do the edges arrive all at once or one at a time | [Number of Connected Components in an Undirected Graph](https://github.com/iamslash/learntocode/tree/master/leetcode/NumberofConnectedComponentsinanUndirectedGraph) · [Redundant Connection](https://github.com/iamslash/learntocode/tree/master/leetcode/RedundantConnection) |
+| Connected components | vertices and edges, or a grid | how many blobs, are these two in the same blob, which edge closes a cycle | do the edges arrive all at once or one at a time | [Number of Connected Components in an Undirected Graph](https://github.com/iamslash/learntocode/tree/master/leetcode/NumberofConnectedComponentsinanUndirectedGraph) · [Redundant Connection](https://github.com/iamslash/learntocode/tree/master/leetcode/RedundantConnection) |
 | Topological order | tasks with precedence | an execution order, or whether such an order exists at all | with a cycle there is no answer. checking for one is half the problem | [Course Schedule](https://github.com/iamslash/learntocode/blob/master/leetcode/CourseSchedule/MainApp.java) · [Course Schedule II](https://github.com/iamslash/learntocode/tree/master/leetcode/CourseScheduleII) |
 | Shortest path | a graph and a start, plus a target if needed | the least cost or the fewest steps | are all weights 1, are any negative. the method splits three ways | [Word Ladder](https://github.com/iamslash/learntocode/blob/master/leetcode2/WordLadder/MainApp.java) · [Network Delay Time](https://github.com/iamslash/learntocode/blob/master/leetcode/NetworkDelayTime/MainApp.java) |
 | Cycle | a graph or a linked list | is there a cycle, where does it start, which parts never reach a cycle | is there one next, or several branches. with branches you need a separate in-progress mark | [Linked List Cycle II](https://github.com/iamslash/learntocode/tree/master/leetcode/LinkedListCycleII) · [Find Eventual Safe States](https://github.com/iamslash/learntocode/tree/master/leetcode/FindEventualSafeStates) |

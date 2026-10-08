@@ -1,10 +1,11 @@
 # All 75
 
-The list from [There Are 75 Famous Problems](./01-skiena-catalog.md), with one
-line of **Input and Output** for each problem. Many names do not tell you what the problem is.
+This is the list from [There Are 75 Famous Problems](./01-skiena-catalog.md),
+with one line of **Input and Output** for each problem. Many names do not tell
+you what the problem is.
 
-These are my own short versions, not the originals. The exact definitions
-are in each entry of the Stony Brook Algorithm Repository (`algorist.com`).
+These are my own short versions, not the originals. The exact definitions are
+in each entry of the Stony Brook Algorithm Repository (`algorist.com`).
 
 
 ## Data Structures
