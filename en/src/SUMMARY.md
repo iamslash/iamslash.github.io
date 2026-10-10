@@ -7,5 +7,5 @@
   - [All 75](./classify-problems/skiena-75.md)
 - [There Are 55 Coding Interview Problems](./classify-problems/02-my-catalog.md)
 - [In an Interview, Nobody Tells You the Name](./classify-problems/03-from-the-statement.md)
-- [Cypher Writes the Picture Down](./neo4j-cypher/01-basics.md)
-- [You Do Not Have to Know How Many Steps](./neo4j-cypher/02-paths.md)
+- [Cypher 1 - Writing the Picture Down](./neo4j-cypher/01-basics.md)
+- [Cypher 2 - You Do Not Have to Know How Many Steps](./neo4j-cypher/02-paths.md)

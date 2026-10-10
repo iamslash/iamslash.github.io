@@ -1,4 +1,4 @@
-# Cypher Writes the Picture Down
+# Cypher 1 - Writing the Picture Down
 
 The language you use to ask Neo4j questions is **Cypher**. SQL works on tables;
 Cypher works on **a picture made of nodes and edges**.

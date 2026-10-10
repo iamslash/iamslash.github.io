@@ -1,4 +1,4 @@
-# You Do Not Have to Know How Many Steps
+# Cypher 2 - You Do Not Have to Know How Many Steps
 
 In [post 1](./01-basics.md) we chained `-[:KNOWS]->` twice to find a friend of
 a friend. More often, though, **you do not know how many steps it takes.**
