@@ -7,3 +7,5 @@
   - [75개 전부](./classify-problems/skiena-75.md)
 - [코딩 인터뷰 문제는 55개입니다](./classify-problems/02-my-catalog.md)
 - [면접장에는 칸 이름이 없습니다](./classify-problems/03-from-the-statement.md)
+- [Cypher 는 그림을 그대로 적습니다](./neo4j-cypher/01-basics.md)
+- [몇 단계 건너야 하는지 몰라도 됩니다](./neo4j-cypher/02-paths.md)
