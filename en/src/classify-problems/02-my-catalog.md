@@ -1,4 +1,4 @@
-# There Are 55 Coding Interview Problems
+# Classifying 2 - There Are 55 Coding Interview Problems
 
 In [There Are 75 Famous Problems](./01-skiena-catalog.md) we saw Skiena write
 an Input and an Output for every problem. No algorithm name appears, so you

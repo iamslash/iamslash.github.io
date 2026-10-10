@@ -83,6 +83,35 @@ These exist because an earlier season shipped fabricated citations — quoted se
 2. Add a link under the matching `SUMMARY.md` — otherwise it will not appear.
 3. Build both books and confirm the sidebar, navigation, and sitemap pairing.
 
+## Series titles
+
+The sidebar is one flat list, so nothing groups a series unless the titles do
+it. **A post belonging to a series leads with the series name and its
+number**, in the `#` heading and in `SUMMARY.md`, in both languages.
+
+```
+  문제 분류 1 - 유명한 문제는 75개입니다
+  문제 분류 2 - 코딩 인터뷰 문제는 55개입니다
+  문제 분류 부록 - 75개 전부
+
+  Cypher 1 - 그림을 그대로 적습니다
+  Cypher 2 - 몇 단계 건너야 하는지 몰라도 됩니다
+```
+
+- The heading carries it too, not just the sidebar — a reader arriving from
+  search sees only the heading.
+- An appendix is numbered `부록` / `Appendix` rather than given a number.
+- If the series name already starts the title, drop the duplicate. `Cypher 는
+  그림을 그대로 적습니다` became `Cypher 1 - 그림을 그대로 적습니다`, not
+  `Cypher 1 - Cypher 는 ...`.
+- **Leave inline cross-references alone.** Prose like
+  `[유명한 문제는 75개입니다](./01-skiena-catalog.md) 에서 본 목록입니다` reads
+  as a sentence; the prefix belongs in the title, not mid-sentence.
+- Renaming changes only what is displayed. Filenames and URLs stay put, so a
+  shared link keeps working.
+
+A single standalone page takes no prefix.
+
 ## Commit messages
 
 Write commit messages that describe only the change itself. Do not mention Claude, Claude Code, or any AI assistance — no `Co-Authored-By: Claude` trailer, no "Generated with Claude Code" line, no references in the subject or body.

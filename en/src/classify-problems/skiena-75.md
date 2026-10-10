@@ -1,4 +1,4 @@
-# All 75
+# Classifying Appendix - All 75
 
 This is the list from [There Are 75 Famous Problems](./01-skiena-catalog.md),
 with one line of **Input and Output** for each problem. Many names do not tell
