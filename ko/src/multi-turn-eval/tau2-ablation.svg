@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="300" viewBox="0 0 720 300" font-family="ui-monospace,Menlo,monospace">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#9aa3b0"/></marker></defs>
+<rect width="720" height="300" fill="#ffffff"/>
+<text x="16.0" y="26.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="bold">τ2-Bench telecom — pass^1 by mode</text>
+<rect x="380" y="17" width="10" height="10" rx="2" fill="#2a78d6"/>
+<text x="396.0" y="26.0" font-size="11" fill="#52514e" text-anchor="start">gpt-4.1</text>
+<rect x="550" y="17" width="10" height="10" rx="2" fill="#eb6834"/>
+<text x="566.0" y="26.0" font-size="11" fill="#52514e" text-anchor="start">o4-mini</text>
+<line x1="70.0" y1="250.0" x2="680.0" y2="250.0" stroke="#e8e7e3" stroke-width="1"/>
+<text x="62.0" y="254.0" font-size="10" fill="#8a8984" text-anchor="end">0.00</text>
+<line x1="70.0" y1="202.5" x2="680.0" y2="202.5" stroke="#e8e7e3" stroke-width="1"/>
+<text x="62.0" y="206.5" font-size="10" fill="#8a8984" text-anchor="end">0.25</text>
+<line x1="70.0" y1="155.0" x2="680.0" y2="155.0" stroke="#e8e7e3" stroke-width="1"/>
+<text x="62.0" y="159.0" font-size="10" fill="#8a8984" text-anchor="end">0.50</text>
+<line x1="70.0" y1="107.5" x2="680.0" y2="107.5" stroke="#e8e7e3" stroke-width="1"/>
+<text x="62.0" y="111.5" font-size="10" fill="#8a8984" text-anchor="end">0.75</text>
+<line x1="70.0" y1="60.0" x2="680.0" y2="60.0" stroke="#e8e7e3" stroke-width="1"/>
+<text x="62.0" y="64.0" font-size="10" fill="#8a8984" text-anchor="end">1.00</text>
+<text x="171.7" y="268.0" font-size="11" fill="#52514e" text-anchor="middle">default</text>
+<path d="M125.7,250.0 V189.4 Q125.7,185.4 129.7,185.4 H165.7 Q169.7,185.4 169.7,189.4 V250.0 Z" fill="#2a78d6"/>
+<text x="147.7" y="179.4" font-size="10.5" fill="#0b0b0b" text-anchor="middle">0.34</text>
+<path d="M173.7,250.0 V174.2 Q173.7,170.2 177.7,170.2 H213.7 Q217.7,170.2 217.7,174.2 V250.0 Z" fill="#eb6834"/>
+<text x="195.7" y="164.2" font-size="10.5" fill="#0b0b0b" text-anchor="middle">0.42</text>
+<text x="375.0" y="268.0" font-size="11" fill="#52514e" text-anchor="middle">no user</text>
+<path d="M329.0,250.0 V155.2 Q329.0,151.2 333.0,151.2 H369.0 Q373.0,151.2 373.0,155.2 V250.0 Z" fill="#2a78d6"/>
+<text x="351.0" y="145.2" font-size="10.5" fill="#0b0b0b" text-anchor="middle">0.52</text>
+<path d="M377.0,250.0 V126.7 Q377.0,122.7 381.0,122.7 H417.0 Q421.0,122.7 421.0,126.7 V250.0 Z" fill="#eb6834"/>
+<text x="399.0" y="116.7" font-size="10.5" fill="#0b0b0b" text-anchor="middle">0.67</text>
+<text x="578.3" y="268.0" font-size="11" fill="#52514e" text-anchor="middle">oracle plan</text>
+<path d="M532.3,250.0 V115.3 Q532.3,111.3 536.3,111.3 H572.3 Q576.3,111.3 576.3,115.3 V250.0 Z" fill="#2a78d6"/>
+<text x="554.3" y="105.3" font-size="10.5" fill="#0b0b0b" text-anchor="middle">0.73</text>
+<path d="M580.3,250.0 V71.6 Q580.3,67.6 584.3,67.6 H620.3 Q624.3,67.6 624.3,71.6 V250.0 Z" fill="#eb6834"/>
+<text x="602.3" y="61.6" font-size="10.5" fill="#0b0b0b" text-anchor="middle">0.96</text>
+<line x1="70.0" y1="250.0" x2="680.0" y2="250.0" stroke="#c9c8c3" stroke-width="1"/>
+</svg>

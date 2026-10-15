@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="350" viewBox="0 0 760 350" font-family="ui-monospace,Menlo,monospace">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#9aa3b0"/></marker></defs>
+<rect width="760" height="350" fill="#ffffff"/>
+<text x="16.0" y="26.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="bold">multi-turn evaluation methods, by arXiv month</text>
+<line x1="140.0" y1="60.0" x2="140.0" y2="305.0" stroke="#e8e7e3" stroke-width="1"/>
+<text x="140.0" y="326.0" font-size="10" fill="#8a8984" text-anchor="middle">2023-06</text>
+<line x1="298.8" y1="60.0" x2="298.8" y2="305.0" stroke="#e8e7e3" stroke-width="1"/>
+<text x="298.8" y="326.0" font-size="10" fill="#8a8984" text-anchor="middle">2024-01</text>
+<line x1="435.0" y1="60.0" x2="435.0" y2="305.0" stroke="#e8e7e3" stroke-width="1"/>
+<text x="435.0" y="326.0" font-size="10" fill="#8a8984" text-anchor="middle">2024-07</text>
+<line x1="571.2" y1="60.0" x2="571.2" y2="305.0" stroke="#e8e7e3" stroke-width="1"/>
+<text x="571.2" y="326.0" font-size="10" fill="#8a8984" text-anchor="middle">2025-01</text>
+<line x1="707.3" y1="60.0" x2="707.3" y2="305.0" stroke="#e8e7e3" stroke-width="1"/>
+<text x="707.3" y="326.0" font-size="10" fill="#8a8984" text-anchor="middle">2025-07</text>
+<line x1="140.0" y1="120.0" x2="730.0" y2="120.0" stroke="#c9c8c3" stroke-width="1"/>
+<text x="16.0" y="118.0" font-size="11" fill="#0b0b0b" text-anchor="start" font-weight="bold">scripted</text>
+<text x="16.0" y="132.0" font-size="10" fill="#8a8984" text-anchor="start">user turns fixed</text>
+<line x1="140.0" y1="240.0" x2="730.0" y2="240.0" stroke="#c9c8c3" stroke-width="1"/>
+<text x="16.0" y="238.0" font-size="11" fill="#0b0b0b" text-anchor="start" font-weight="bold">LLM user</text>
+<text x="16.0" y="252.0" font-size="10" fill="#8a8984" text-anchor="start">sees replies</text>
+<circle cx="140.0" cy="120" r="5" fill="#2a78d6" stroke="#ffffff" stroke-width="2"/>
+<text x="140.0" y="104.0" font-size="10.5" fill="#52514e" text-anchor="middle">MT-Bench</text>
+<circle cx="321.5" cy="120" r="5" fill="#2a78d6" stroke="#ffffff" stroke-width="2"/>
+<text x="321.5" y="104.0" font-size="10.5" fill="#52514e" text-anchor="middle">MT-Bench-101</text>
+<circle cx="571.2" cy="120" r="5" fill="#2a78d6" stroke="#ffffff" stroke-width="2"/>
+<text x="571.2" y="104.0" font-size="10.5" fill="#52514e" text-anchor="middle">MultiChallenge</text>
+<circle cx="208.1" cy="240" r="5" fill="#eb6834" stroke="#ffffff" stroke-width="2"/>
+<text x="208.1" y="224.0" font-size="10.5" fill="#52514e" text-anchor="middle">MINT</text>
+<circle cx="230.8" cy="240" r="5" fill="#eb6834" stroke="#ffffff" stroke-width="2"/>
+<line x1="230.8" y1="246.0" x2="230.8" y2="254.0" stroke="#c9c8c3" stroke-width="1"/>
+<text x="230.8" y="268.0" font-size="10.5" fill="#52514e" text-anchor="middle">SOTOPIA</text>
+<circle cx="412.3" cy="240" r="5" fill="#eb6834" stroke="#ffffff" stroke-width="2"/>
+<text x="412.3" y="224.0" font-size="10.5" fill="#52514e" text-anchor="middle">τ-bench</text>
+<circle cx="457.7" cy="240" r="5" fill="#eb6834" stroke="#ffffff" stroke-width="2"/>
+<line x1="457.7" y1="246.0" x2="457.7" y2="254.0" stroke="#c9c8c3" stroke-width="1"/>
+<text x="457.7" y="268.0" font-size="10.5" fill="#52514e" text-anchor="middle">ToolSandbox</text>
+<circle cx="571.2" cy="240" r="5" fill="#eb6834" stroke="#ffffff" stroke-width="2"/>
+<text x="571.2" y="224.0" font-size="10.5" fill="#52514e" text-anchor="middle">ACEBench (Agent)</text>
+<circle cx="571.2" cy="240" r="5" fill="#eb6834" stroke="#ffffff" stroke-width="2"/>
+<line x1="571.2" y1="246.0" x2="571.2" y2="254.0" stroke="#c9c8c3" stroke-width="1"/>
+<text x="571.2" y="268.0" font-size="10.5" fill="#52514e" text-anchor="middle">IntellAgent</text>
+<circle cx="616.5" cy="240" r="5" fill="#eb6834" stroke="#ffffff" stroke-width="2"/>
+<line x1="616.5" y1="246.0" x2="616.5" y2="270.0" stroke="#c9c8c3" stroke-width="1"/>
+<text x="616.5" y="284.0" font-size="10.5" fill="#52514e" text-anchor="middle">ColBench</text>
+<circle cx="661.9" cy="240" r="5" fill="#eb6834" stroke="#ffffff" stroke-width="2"/>
+<line x1="661.9" y1="234.0" x2="661.9" y2="204.0" stroke="#c9c8c3" stroke-width="1"/>
+<text x="661.9" y="200.0" font-size="10.5" fill="#52514e" text-anchor="middle">Lost in Conv.</text>
+<circle cx="684.6" cy="240" r="5" fill="#eb6834" stroke="#ffffff" stroke-width="2"/>
+<text x="684.6" y="224.0" font-size="10.5" fill="#52514e" text-anchor="middle">τ2-Bench</text>
+<circle cx="707.3" cy="240" r="5" fill="#eb6834" stroke="#ffffff" stroke-width="2"/>
+<line x1="707.3" y1="246.0" x2="707.3" y2="254.0" stroke="#c9c8c3" stroke-width="1"/>
+<text x="707.3" y="268.0" font-size="10.5" fill="#52514e" text-anchor="middle">UserBench</text>
+</svg>

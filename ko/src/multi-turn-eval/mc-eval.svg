@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="300" viewBox="0 0 760 300" font-family="ui-monospace,Menlo,monospace">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#9aa3b0"/></marker></defs>
+<rect width="760" height="300" fill="#fff"/>
+<rect x="16" y="30" width="190" height="96" rx="8" fill="#f2f3f5" stroke="#5b6572" stroke-width="1.4"/>
+<text x="111" y="61" font-size="12.5" fill="#1f2430" text-anchor="middle">CONVERSATION</text>
+<text x="111" y="77" font-size="10" fill="#6b7280" text-anchor="middle">user · assistant · ...</text>
+<text x="111" y="91" font-size="10" fill="#6b7280" text-anchor="middle">ends with a user turn</text>
+<text x="111" y="105" font-size="10" fill="#6b7280" text-anchor="middle">about 9 turns</text>
+<rect x="256" y="46" width="150" height="64" rx="8" fill="#edf5ec" stroke="#4a7c4e" stroke-width="1.4"/>
+<text x="331" y="75" font-size="12.5" fill="#1f2430" text-anchor="middle" font-weight="bold">your model</text>
+<text x="331" y="91" font-size="10" fill="#6b7280" text-anchor="middle">writes one reply</text>
+<rect x="456" y="46" width="150" height="64" rx="8" fill="#f2f3f5" stroke="#5b6572" stroke-width="1.4"/>
+<text x="531" y="68" font-size="12.5" fill="#1f2430" text-anchor="middle">reply</text>
+<text x="531" y="84" font-size="10" fill="#6b7280" text-anchor="middle">only this goes</text>
+<text x="531" y="98" font-size="10" fill="#6b7280" text-anchor="middle">to the judge</text>
+<line x1="206" y1="78" x2="252" y2="78" stroke="#9aa3b0" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="406" y1="78" x2="452" y2="78" stroke="#9aa3b0" stroke-width="1.4" marker-end="url(#a)"/>
+<rect x="16" y="176" width="190" height="74" rx="8" fill="#f2f3f5" stroke="#5b6572" stroke-width="1.4"/>
+<text x="111" y="203" font-size="12.5" fill="#1f2430" text-anchor="middle">TARGET_QUESTION</text>
+<text x="111" y="219" font-size="10" fill="#6b7280" text-anchor="middle">one yes / no question</text>
+<text x="111" y="233" font-size="10" fill="#6b7280" text-anchor="middle">written by a person</text>
+<rect x="456" y="176" width="150" height="74" rx="8" fill="#fdf1e6" stroke="#b5733a" stroke-width="1.4"/>
+<text x="531" y="203" font-size="12.5" fill="#1f2430" text-anchor="middle">judge</text>
+<text x="531" y="219" font-size="10" fill="#6b7280" text-anchor="middle">gpt-4o-2024-08-06</text>
+<text x="531" y="233" font-size="10" fill="#6b7280" text-anchor="middle">temperature 0</text>
+<line x1="531" y1="110" x2="531" y2="172" stroke="#9aa3b0" stroke-width="1.4" marker-end="url(#a)"/>
+<line x1="206" y1="213" x2="452" y2="213" stroke="#9aa3b0" stroke-width="1.4" marker-end="url(#a)"/>
+<text x="329" y="206" font-size="10" fill="#6b7280" text-anchor="middle">&quot;Be VERY STRICT!&quot;</text>
+<rect x="640" y="176" width="104" height="74" rx="8" fill="#edf5ec" stroke="#4a7c4e" stroke-width="1.4"/>
+<text x="692" y="203" font-size="12.5" fill="#1f2430" text-anchor="middle" font-weight="bold">pass?</text>
+<text x="692" y="219" font-size="10" fill="#6b7280" text-anchor="middle">verdict ==</text>
+<text x="692" y="233" font-size="10" fill="#6b7280" text-anchor="middle">PASS_CRITERIA</text>
+<line x1="606" y1="213" x2="636" y2="213" stroke="#9aa3b0" stroke-width="1.4" marker-end="url(#a)"/>
+<text x="16" y="282" font-size="10.5" fill="#6b7280" text-anchor="start">the judge never sees the conversation — only the reply and the question</text>
+</svg>
