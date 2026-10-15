@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="320" viewBox="0 0 720 320" font-family="ui-monospace,Menlo,monospace">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#9aa3b0"/></marker></defs>
+<rect width="720" height="320" fill="#ffffff"/>
+<text x="16.0" y="26.0" font-size="12.5" fill="#0b0b0b" text-anchor="start" font-weight="bold">gpt-4.1 on τ2-Bench — pass^k (all k runs must succeed)</text>
+<line x1="70.0" y1="270.0" x2="560.0" y2="270.0" stroke="#e8e7e3" stroke-width="1"/>
+<text x="62.0" y="274.0" font-size="10" fill="#8a8984" text-anchor="end">0.0</text>
+<line x1="70.0" y1="217.5" x2="560.0" y2="217.5" stroke="#e8e7e3" stroke-width="1"/>
+<text x="62.0" y="221.5" font-size="10" fill="#8a8984" text-anchor="end">0.2</text>
+<line x1="70.0" y1="165.0" x2="560.0" y2="165.0" stroke="#e8e7e3" stroke-width="1"/>
+<text x="62.0" y="169.0" font-size="10" fill="#8a8984" text-anchor="end">0.4</text>
+<line x1="70.0" y1="112.5" x2="560.0" y2="112.5" stroke="#e8e7e3" stroke-width="1"/>
+<text x="62.0" y="116.5" font-size="10" fill="#8a8984" text-anchor="end">0.6</text>
+<line x1="70.0" y1="60.0" x2="560.0" y2="60.0" stroke="#e8e7e3" stroke-width="1"/>
+<text x="62.0" y="64.0" font-size="10" fill="#8a8984" text-anchor="end">0.8</text>
+<text x="70.0" y="288.0" font-size="10" fill="#8a8984" text-anchor="middle">k = 1</text>
+<text x="233.3" y="288.0" font-size="10" fill="#8a8984" text-anchor="middle">k = 2</text>
+<text x="396.7" y="288.0" font-size="10" fill="#8a8984" text-anchor="middle">k = 3</text>
+<text x="560.0" y="288.0" font-size="10" fill="#8a8984" text-anchor="middle">k = 4</text>
+<line x1="70.0" y1="270.0" x2="560.0" y2="270.0" stroke="#c9c8c3" stroke-width="1"/>
+<polyline points="70.0,75.8 233.3,102.0 396.7,117.8 560.0,130.9" fill="none" stroke="#2a78d6" stroke-width="2"/>
+<circle cx="70.0" cy="75.8" r="4.5" fill="#2a78d6" stroke="#ffffff" stroke-width="2"/>
+<circle cx="233.3" cy="102.0" r="4.5" fill="#2a78d6" stroke="#ffffff" stroke-width="2"/>
+<circle cx="396.7" cy="117.8" r="4.5" fill="#2a78d6" stroke="#ffffff" stroke-width="2"/>
+<circle cx="560.0" cy="130.9" r="4.5" fill="#2a78d6" stroke="#ffffff" stroke-width="2"/>
+<text x="60.0" y="79.8" font-size="10.5" fill="#0b0b0b" text-anchor="end">0.74</text>
+<text x="570.0" y="134.9" font-size="10.5" fill="#0b0b0b" text-anchor="start">0.53  Retail</text>
+<polyline points="70.0,123.0 233.3,149.2 396.7,159.8 560.0,165.0" fill="none" stroke="#eb6834" stroke-width="2"/>
+<circle cx="70.0" cy="123.0" r="4.5" fill="#eb6834" stroke="#ffffff" stroke-width="2"/>
+<circle cx="233.3" cy="149.2" r="4.5" fill="#eb6834" stroke="#ffffff" stroke-width="2"/>
+<circle cx="396.7" cy="159.8" r="4.5" fill="#eb6834" stroke="#ffffff" stroke-width="2"/>
+<circle cx="560.0" cy="165.0" r="4.5" fill="#eb6834" stroke="#ffffff" stroke-width="2"/>
+<text x="60.0" y="127.0" font-size="10.5" fill="#0b0b0b" text-anchor="end">0.56</text>
+<text x="570.0" y="169.0" font-size="10.5" fill="#0b0b0b" text-anchor="start">0.40  Airline</text>
+<polyline points="70.0,180.8 233.3,201.8 396.7,212.2 560.0,220.1" fill="none" stroke="#1baf7a" stroke-width="2"/>
+<circle cx="70.0" cy="180.8" r="4.5" fill="#1baf7a" stroke="#ffffff" stroke-width="2"/>
+<circle cx="233.3" cy="201.8" r="4.5" fill="#1baf7a" stroke="#ffffff" stroke-width="2"/>
+<circle cx="396.7" cy="212.2" r="4.5" fill="#1baf7a" stroke="#ffffff" stroke-width="2"/>
+<circle cx="560.0" cy="220.1" r="4.5" fill="#1baf7a" stroke="#ffffff" stroke-width="2"/>
+<text x="60.0" y="184.8" font-size="10.5" fill="#0b0b0b" text-anchor="end">0.34</text>
+<text x="570.0" y="224.1" font-size="10.5" fill="#0b0b0b" text-anchor="start">0.19  Telecom</text>
+</svg>
