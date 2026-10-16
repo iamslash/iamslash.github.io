@@ -1,4 +1,4 @@
-# Multi-turn Eval 2 - From Scripted Conversations to LLM Users
+# Multi-turn Agent Eval 2 - From Scripted Conversations to LLM Users
 
 In post 1 we split multi-turn evaluation in two: whether the user's next line is
 **written in advance**, or **written by an LLM after reading the agent's answer**.

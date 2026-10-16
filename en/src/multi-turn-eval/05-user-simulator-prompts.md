@@ -1,4 +1,4 @@
-# Multi-turn Eval 5 - An LLM User Runs on a User Prompt
+# Multi-turn Agent Eval 5 - An LLM User Runs on a User Prompt
 
 When an LLM reads the agent's answer and writes the next line, that LLM needs a
 **prompt that makes it play the user**. Change this prompt and the same agent gets

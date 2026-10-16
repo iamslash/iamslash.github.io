@@ -1,4 +1,4 @@
-# 여러 턴 평가 6 - 내 agent 는 써 둔 대화와 LLM 사용자로 두 번 잽니다
+# Multi-turn Agent Eval 6 - 내 agent 는 써 둔 대화와 LLM 사용자로 두 번 잽니다
 
 써 둔 대화로는 agent 가 대화를 놓치지 않는지 보고, LLM 사용자로는 일을 끝내는지
 봅니다.

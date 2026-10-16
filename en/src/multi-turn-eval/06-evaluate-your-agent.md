@@ -1,4 +1,4 @@
-# Multi-turn Eval 6 - Measure Your Agent Twice: Scripted, Then With an LLM User
+# Multi-turn Agent Eval 6 - Measure Your Agent Twice: Scripted, Then With an LLM User
 
 A scripted conversation shows whether the agent remembers what was said earlier,
 and an LLM user shows whether it finishes the task.

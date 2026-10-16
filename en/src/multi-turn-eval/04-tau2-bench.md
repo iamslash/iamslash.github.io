@@ -1,4 +1,4 @@
-# Multi-turn Eval 4 - τ2-Bench Gives the User Tools Too
+# Multi-turn Agent Eval 4 - τ2-Bench Gives the User Tools Too
 
 **This paper was made to measure agents that guide users and solve problems
 with them.**

@@ -1,4 +1,4 @@
-# 여러 턴 평가 4 - τ2-Bench 는 사용자에게도 tool 을 쥐여 줍니다
+# Multi-turn Agent Eval 4 - τ2-Bench 는 사용자에게도 tool 을 쥐여 줍니다
 
 **이 논문은 사용자를 이끌어 함께 문제를 푸는 agent 를 재려고 만든 것입니다.**
 

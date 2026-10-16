@@ -1,4 +1,4 @@
-# Multi-turn Eval 3 - MultiChallenge Fixes the Conversation and Grades One Answer
+# Multi-turn Agent Eval 3 - MultiChallenge Fixes the Conversation and Grades One Answer
 
 **This paper was made to automatically grade how well a model talks with a person
 over many turns. It uses problems that even the latest models get wrong.**
