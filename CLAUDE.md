@@ -26,7 +26,7 @@ cp index.html book/
 python3 scripts/gen_sitemap.py
 ```
 
-`mdbook` is a Rust binary; install with `cargo install mdbook` if missing. Deploys pin **mdBook v0.4.40** (see `.github/workflows/deploy.yml`), so prefer that version when reproducing build behavior. Note that v0.4.40 has no `aarch64-apple-darwin` release — on Apple Silicon, use the `x86_64-apple-darwin` build under Rosetta.
+`mdbook` is a Rust binary; install with `cargo install mdbook --version 0.4.40 --locked` if missing. Deploys pin **mdBook v0.4.40** (see `.github/workflows/deploy.yml`), so prefer that version when reproducing build behavior. Note that v0.4.40 has no `aarch64-apple-darwin` release — on Apple Silicon, use the `x86_64-apple-darwin` build under Rosetta.
 
 There are no tests or linters.
 
@@ -85,22 +85,31 @@ These exist because an earlier season shipped fabricated citations — quoted se
 
 ## Series titles
 
-The sidebar is one flat list, so nothing groups a series unless the titles do
-it. **A post belonging to a series leads with the series name and its
-number**, in the `#` heading and in `SUMMARY.md`, in both languages.
+A series is a folded group in the sidebar. In `SUMMARY.md` it is an
+empty-link parent, and its posts are nested under it with the series name
+dropped from the label:
 
 ```
-  문제 분류 1 - 유명한 문제는 75개입니다
-  문제 분류 2 - 코딩 인터뷰 문제는 55개입니다
-  문제 분류 부록 - 75개 전부
-
-  Cypher 1 - 그림을 그대로 적습니다
-  Cypher 2 - 몇 단계 건너야 하는지 몰라도 됩니다
+- [Cypher]()
+  - [1. 그림을 그대로 적습니다](./neo4j-cypher/01-basics.md)
+  - [2. 몇 단계 건너야 하는지 몰라도 됩니다](./neo4j-cypher/02-paths.md)
 ```
 
-- The heading carries it too, not just the sidebar — a reader arriving from
-  search sees only the heading.
-- An appendix is numbered `부록` / `Appendix` rather than given a number.
+The `#` heading still leads with the series name and its number, in both
+languages, because a reader arriving from search sees only the heading:
+
+```
+  # Cypher 1 - 그림을 그대로 적습니다
+```
+
+- The sidebar label is the heading with `<series> ` and ` - ` taken out:
+  `Cypher 1 - 그림을 …` becomes `1. 그림을 …`. Do not write a third, shorter
+  title.
+- The label is also the first part of the browser tab title, so the tab
+  reads `1. 그림을 … - David learns to code`, without the series name. That
+  is accepted.
+- An appendix is `부록` / `Appendix` rather than a number, in the heading
+  (`문제 분류 부록 - 75개 전부`) and in the label (`부록. 75개 전부`).
 - If the series name already starts the title, drop the duplicate. `Cypher 는
   그림을 그대로 적습니다` became `Cypher 1 - 그림을 그대로 적습니다`, not
   `Cypher 1 - Cypher 는 ...`.
@@ -110,7 +119,25 @@ number**, in the `#` heading and in `SUMMARY.md`, in both languages.
 - Renaming changes only what is displayed. Filenames and URLs stay put, so a
   shared link keeps working.
 
-A single standalone page takes no prefix.
+A single standalone page takes no prefix and stays a top-level link.
+
+### How the folding works
+
+- `book.toml` sets `[output.html.fold] enable = true, level = 0` (every series
+  starts closed; the one holding the current page opens) and
+  `no-section-label = true` (mdBook's own `5.3.` numbers are off; the label
+  carries the post number).
+- `theme/sidebar.js` replaces each series row with one `<button>`, since
+  mdBook 0.4.40 makes only the small chevron clickable and not by keyboard.
+- `theme/sidebar.css` styles that button and breaks Korean labels between
+  words (`word-break: keep-all`).
+- `theme/sidebar.js` also makes the stock sidebar opener work from the
+  keyboard and keeps the sidebar's checkbox, `aria-hidden` and tab order in
+  step when book.js shows or hides it by swipe or drag.
+- Without JavaScript, `sidebar.css` shows every series open.
+- Both files are identical in `ko/theme/` and `en/theme/`. Change both.
+- The sidebar is `#sidebar` in mdBook 0.4.40. Newer mdBook (0.5) renames it,
+  so build with 0.4.40 when checking this.
 
 ## Commit messages
 

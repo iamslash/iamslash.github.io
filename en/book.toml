@@ -9,3 +9,11 @@ build-dir = "../book/en"
 
 [output.html]
 site-url = "/en/"
+# Series are grouped under empty-link parents in SUMMARY.md and start folded.
+no-section-label = true
+additional-css = ["theme/sidebar.css"]
+additional-js = ["theme/sidebar.js"]
+
+[output.html.fold]
+enable = true
+level = 0

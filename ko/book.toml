@@ -9,3 +9,11 @@ build-dir = "../book/ko"
 
 [output.html]
 site-url = "/ko/"
+# 시리즈는 SUMMARY.md 에서 빈 링크 부모로 묶고, 접힌 채로 시작한다.
+no-section-label = true
+additional-css = ["theme/sidebar.css"]
+additional-js = ["theme/sidebar.js"]
+
+[output.html.fold]
+enable = true
+level = 0

@@ -1,0 +1,71 @@
+/* Sidebar: series are folded groups (see SUMMARY.md and sidebar.js). */
+
+/* Break Korean between words, never mid-word. Any label may break a single
+   over-long token rather than overflow a narrow sidebar. */
+html[lang="ko"] #sidebar .chapter li a,
+html[lang="ko"] #sidebar .series-toggle {
+    word-break: keep-all;
+}
+#sidebar .chapter li a,
+#sidebar .series-name {
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+/* The series row, rebuilt by sidebar.js as one full-width button. Hover and
+   focus keep the base text color, which has enough contrast in every theme;
+   --sidebar-active does not in coal and navy. */
+#sidebar .series-toggle {
+    display: flex;
+    align-items: baseline;
+    width: 100%;
+    min-width: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+    font: inherit;
+    line-height: inherit;
+    text-align: start;
+    color: var(--sidebar-fg);
+    cursor: pointer;
+}
+#sidebar .series-toggle:hover .series-name {
+    text-decoration: underline;
+}
+#sidebar .series-toggle:focus-visible {
+    outline: 2px solid var(--sidebar-fg);
+    outline-offset: 2px;
+}
+#sidebar .series-chevron {
+    flex-shrink: 0;
+    margin-inline-start: auto;
+    padding: 0 10px;
+    opacity: 0.68;
+    transition: transform 0.5s;
+}
+#sidebar .chapter li.expanded > .series-toggle .series-chevron {
+    transform: rotate(90deg);
+}
+
+/* Posts inside a series sit a little tighter than top-level rows. */
+#sidebar .section > li.chapter-item {
+    margin-block-start: 0.4em;
+}
+
+@media (-moz-touch-enabled: 1), (pointer: coarse) {
+    #sidebar .series-toggle { padding: 5px 0; }
+}
+
+/* Without JavaScript nothing can open a folded series, so show every post
+   and hide the chevrons that would do nothing. */
+.no-js #sidebar .chapter li:not(.expanded) + li > ol {
+    display: block;
+}
+.no-js #sidebar .chapter li > a.toggle {
+    display: none;
+}
+/* The series name is a draft row, which mdBook greys out. It names the group
+   here, so give it the normal text color. */
+.no-js #sidebar .chapter li.chapter-item > div {
+    color: var(--sidebar-fg);
+}

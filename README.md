@@ -18,7 +18,7 @@ Filenames match across languages — `ko/src/x.md` and `en/src/x.md` become `/ko
 ## Local development
 
 ```bash
-cargo install mdbook          # deploys pin v0.4.40
+cargo install mdbook --version 0.4.40 --locked   # what deploys use
 
 mdbook serve ko               # live-reload one language at localhost:3000
 mdbook build ko && mdbook build en
@@ -39,12 +39,13 @@ python3 scripts/gen_sitemap.py
 1. Create the Markdown file under `ko/src/` **and** `en/src/`, using the same filename in both.
 2. Link it from that language's `SUMMARY.md` — mdBook renders nothing that is not listed there.
 
-Nested `SUMMARY.md` entries render as a collapsible tree, which is how multi-post series are grouped:
+A series is an empty-link parent with its posts nested under it; the sidebar
+starts it folded. See `CLAUDE.md` ("Series titles") for the label rules:
 
 ```markdown
-- [Securing My Stack](./secure-my-stack/index.md)
-  - [Prologue — Four Doors](./secure-my-stack/00-four-doors.md)
-  - [What Is a JWT](./secure-my-stack/01-what-is-jwt.md)
+- [Cypher]()
+  - [1. 그림을 그대로 적습니다](./neo4j-cypher/01-basics.md)
+  - [2. 몇 단계 건너야 하는지 몰라도 됩니다](./neo4j-cypher/02-paths.md)
 ```
 
 ## Drafts
